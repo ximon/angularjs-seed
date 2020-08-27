@@ -4,7 +4,8 @@ import './home.scss';
 
 class homeController {
   constructor() {
-    this.title = 'Hello World'
+    this.title = 'Hello World';
+    this.angularVersion = angular.version.full;
   }
 }
 
